@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/iconfont.css">
+  <link rel="stylesheet" href="./css/hover-min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+  <title>Дизайн и верстка</title>
+</head>
+
+<body>
+  <header>
+    <div class="header_div">
+      <nav>
+        <ul>
+          <li class="heade_list ">
+            <a class="hvr-underline-from-center" href="#">главная</a>
+          </li>
+          <li class="heade_list">
+            <a class="hvr-underline-from-center" href="#">об авторе</a>
+          </li>
+          <li class="heade_list">
+            <a class="hvr-underline-from-center" href="#">работы</a>
+          </li>
+          <li class="heade_list">
+            <a class="hvr-underline-from-center" href="#">прогресс</a>
+          </li>
+          <li class="heade_list">
+            <a class="hvr-underline-from-center" href="#">контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <h1 class="header_title">Дизайн и верстка</h1>
+      <p class="header_discr">
+        Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+        вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+        латинице с начала XVI века.
+      </p>
+      <form action="#">
+        <button class="header_btn" type="submit">написать мне</button>
+      </form>
+    </div>
+
+  </header>
+
+  <!-- modal window -->
+  <section>
+    <a id="modal" class="button" href="#">sign in</a>
+    <div class="modal_holder">
+      <div class="modal" id="modal-body">
+        <span class="icon-xmark"></span>
+        <form action="" enctype="" method="">
+          <div>
+            <label>имя
+              <input type="text" placeholder="Ivan" name="name" required>
+            </label>
+          </div>
+          <div>
+            <label>почта
+              <input type="email" placeholder="test@gmail.com" name="email" required>
+            </label>
+          </div>
+          <div>
+            <label>телефон
+              <input type="tel" placeholder="+380123456789" name="phone" minlength="10" maxlength="13" required>
+            </label>
+          </div>
+          <button type="submit">sign in</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- animation -->
+  <section>
+    <span class="icon-hand-left"></span>
+  </section>
+
+
+
+  <main>
+    <div class="about">
+      <h2 class="about_title">Обо мне</h2>
+      <p class="about_discr">
+        Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+        вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+        латинице с начала XVI века.
+      </p>
+    </div>
+    <div class="portfolio">
+      <div class="portfolio_item">
+        <div class="portfolio_list">
+          <img class="portfolio_img" src="./images/Group.png" alt="">
+          <span class="portfolio_num">40+</span>
+          <span class="portfolio_disc">проектов</span>
+        </div>
+        <div class="portfolio_list">
+          <img class="portfolio_img" src="./images/Group.png" alt="">
+          <span class="portfolio_num">40+</span>
+          <span class="portfolio_disc">проектов</span>
+        </div>
+        <div class="portfolio_list">
+          <img class="portfolio_img" src="./images/Group.png" alt="">
+          <span class="portfolio_num">40+</span>
+          <span class="portfolio_disc">проектов</span>
+        </div>
+        <div class="portfolio_list">
+          <img class="portfolio_img" src="./images/Group.png" alt="">
+          <span class="portfolio_num">40+</span>
+          <span class="portfolio_disc">проектов</span>
+        </div>
+        <div class="portfolio_list">
+          <img class="portfolio_img" src="./images/Group.png" alt="">
+          <span class="portfolio_num">40+</span>
+          <span class="portfolio_disc">проектов</span>
+        </div>
+        <div class="portfolio_list">
+          <img class="portfolio_img" src="./images/Group.png" alt="">
+          <span class="portfolio_num">40+</span>
+          <span class="portfolio_disc">проектов</span>
+        </div>
+      </div>
+    </div>
+    <div class="about work">
+      <h2 class="about_title">Как я работаю</h2>
+      <p class="about_discr">
+        Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+        вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+        латинице с начала XVI века.
+      </p>
+    </div>
+    <div class="video">
+      <iframe class="video_player" src="https://www.youtube.com/embed/yKkjd0WH0rg?start=1738"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <p class="name">Иванов Иван</p>
+      <p class="licence">(с) 2018. Все права защищены.</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+<script>
+  $(document).ready(function () {
+    $("#modal").on("click", function () {
+      $("body").addClass("active");
+    })
+    $(".icon-xmark").on("click", function () {
+      $("body").removeClass("active");
+    })
+  });
+</script>
